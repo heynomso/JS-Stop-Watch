@@ -51,4 +51,14 @@ button #pause {
 }
 button #reset {
   background-color: red;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 80%;
+  }
+  #timer {
+    font-size: 70px;
+    padding: 25px;
+  }
 }/*# sourceMappingURL=style.css.map */
